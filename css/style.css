@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #EFF1FA;
+	width: 100%;
+}
+
+header {
+	background-color: #0A3871;
+	color: white;
+}
+
+.logo {
+	padding: 20px;
+}
+
+main {
+	margin: 20px;
+}
+
+h2 {
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #0A3871;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0A3871;
+	border: none;
+	border-radius: 10px;
+	resize: none;
+	background-color: #EFF1FA;
+	margin-bottom: 10px;
+}
+
+.contenedor-botones {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.boton-encriptar, .boton-desencriptar, .boton-copiar {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.boton-encriptar {
+    background-color: #0A3871;
+    margin-right: 20px;
+}
+
+.boton-encriptar:hover {
+    background-color: #3162C7;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.boton-desencriptar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 2px solid #0A3871;
+}
+
+.boton-desencriptar:hover {
+    background-color: #C5CED9;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.boton-copiar {
+    background-color: #0A3871;
+    margin-left: 20px;
+}
+
+.boton-copiar:hover {
+    background-color: #3162C7;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.redes img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.copy {
+    text-align: center;
+    font-size: 14px;
+}
